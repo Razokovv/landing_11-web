@@ -1,0 +1,289 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.content {
+  background: linear-gradient(241.37deg, #793EE1 26.63%, #2C41CE 100%);
+  height: 680px;
+  position: relative;
+}
+
+.h-line {
+  border-bottom: 1px solid #FFFFFF33;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 96px;
+  height: 80px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #FFFFFF;
+}
+
+.landing-content {
+  display: flex;
+  align-items: center;
+  padding-top: 200px;
+}
+
+.test {
+  color: white;
+}
+
+.test h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.online-status {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.status-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #3D40D2;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 100px;
+  font-size: 1rem;
+  cursor: pointer;
+  gap: 24px;
+  height: 64px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  object-fit: cover;
+}
+
+.background-image img {
+  width: 100%;
+  height: auto
+}
+
+.section {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  padding: 96px 0 96px 0;
+}
+
+.blocks ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 0;
+  padding: 8px 0;
+  border-bottom: 1px solid #EAECF0;
+  cursor: pointer;
+  color: #667085;
+  font-weight: 600;
+}
+
+.blocks li.active {
+  color: purple;
+  padding: 8px 0;
+  border-bottom: 1px solid purple;
+}
+
+/*.grid-container {*/
+/*  display: grid;*/
+/*  grid-template-columns: repeat(auto-fill, 384px);)); /
+/*  gap: 20px; */
+/*  max-width: 100%; */
+/*}*/
+
+.grid-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(315px, 1fr));
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.blocks-title {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #101828;
+}
+
+.blocks-description {
+  font-size: 16px;
+  line-height: 24px;
+  color: #475467;
+}
+
+
+.client {
+  padding-top: 96px;
+}
+
+.clients-section {
+  background-color: #F9FAFB;
+  padding: 64px 32px;
+  border-radius: 16px;
+}
+
+.clients-logos {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  gap: 40px;
+}
+
+.unique-details {
+  padding-top: 96px;
+  background-color: #FFFFFF;
+}
+
+.unique-title {
+  line-height: 44px;
+  font-size: 2rem;
+  margin: 0 0 32px 0;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  background-color: #F9FAFB;
+  border-radius: 16px;
+  padding: 24px;
+  max-width: 286px;
+}
+
+.icon img {
+  width: 50px;
+  height: 50px;
+  margin:0;
+}
+
+.card h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin:0;
+}
+
+.card p {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #475467;
+  line-height: 24px;
+}
+
+.cta-section {
+  padding-top: 96px;
+  text-align: center;
+}
+
+.cta-container {
+  height: 256px;
+  background-color: #F9FAFB;
+}
+
+.cta-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+  margin: 0;
+}
+
+
+
+input[type="email"] {
+  width: 337px;
+  padding: 12px 14px;
+  border: 1px solid #D0D5DD;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px 0 #1018280D;
+  background-color: #FFFFFF;
+  font-size: 1rem;
+}
+
+button {
+  padding: 12px 18px;
+  box-shadow: 0px 1px 2px 0px #1018280D;
+  background-color: #7F56D9;
+  color: white;
+  border: 1px solid #7F56D9;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.form {
+  padding-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer {
+  padding-top: 96px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #EAECF0;
+  height: 56px;
+}
+
+.footer-content span {
+  color: #667085;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 24px;
+}

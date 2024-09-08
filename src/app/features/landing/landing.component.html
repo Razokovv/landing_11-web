@@ -1,0 +1,108 @@
+<div class="content">
+  <header class="header container">
+    <nav class="nav">
+      <a href="#">Главная</a>
+      <a href="#">Контакты</a>
+      <a href="#">О нас</a>
+    </nav>
+  </header>
+  <div class="h-line"></div>
+  <section class="landing-content container">
+    <div class="test">
+      <h1>11 WEB STUDIO</h1>
+      <div class="online-status">
+        <button class="status-button"> Мы онлайн
+          <div class="icon">
+            <a href="https://t.me/morris_o1" target="_blank">
+              <img src="/icons/telegram.svg" alt="Иконка Телеграм">
+            </a>
+            <a href="https://t.me/morris_o1">
+              <img src="/icons/telegram.svg" alt="Иконка Телеграм">
+            </a>
+          </div>
+        </button>
+      </div>
+    </div>
+  </section>
+  <img class="background-image" src="/images/background.png" alt="Фоновое изображение">
+</div>
+<div class="section container">
+  <div class="blocks">
+    <ul>
+      <li
+        *ngFor="let category of categories; let i = index"
+        [ngClass]="{'active': activeCategoryIndex === i}"
+        (click)="setActiveCategory(i)">
+        {{ category }}
+      </li>
+    </ul>
+  </div>
+
+  <div class="grid-container">
+    <div *ngFor="let item of getFilteredItems()" class="grid-item">
+      <img [src]="item.image" alt="{{ item.title }}">
+      <span class="blocks-title">{{ item.title }}</span>
+      <span class="blocks-description">{{ item.description }}</span>
+    </div>
+  </div>
+</div>
+
+<section class="client container">
+  <div class="clients-section">
+    <div class="clients-logos">
+      <div class="client-logo">
+        <img src="/images/1.png" alt="Boltshift">
+      </div>
+      <div class="client-logo">
+        <img src="/images/2.png" alt="Lightbox">
+      </div>
+      <div class="client-logo">
+        <img src="/images/3.png" alt="FeatherDev">
+      </div>
+      <div class="client-logo">
+        <img src="/images/4.png" alt="Spherule">
+      </div>
+      <div class="client-logo">
+        <img src="/images/5.png" alt="GlobalBank">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="unique-details container">
+  <h2 class="unique-title">Ваша уникальность в каждой детали</h2>
+  <div class="cards-container">
+    <div class="card" *ngFor="let card of cards">
+      <div class="icon">
+        <img [src]="card.icon" [alt]="card.title">
+      </div>
+      <div class="title">
+        <h3>{{ card.title }}</h3>
+        <p>{{ card.description }}</p>
+      </div>
+    </div>
+  </div>
+
+
+</section>
+<section class="cta-section container">
+  <div class="cta-container">
+    <h2 class="cta-title">Свяжитесь с нами</h2>
+    <form class="form" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <input type="email" formControlName="email" placeholder="Телефон, mail, telegram, whatsapp" required>
+      </div>
+      <button type="submit" [disabled]="contactForm.invalid">Отправить</button>
+    </form>
+  </div>
+</section>
+
+<footer class="footer container">
+  <div class="footer-content">
+    <span>© 2024. Eleven Web Studio</span>
+    <div class="footer-icons">
+      <img style="width: 24px; height: 24px" src="/icons/telegram.svg" alt="1">
+      <img src="/icons/Social%20icon.svg" alt="2">
+    </div>
+  </div>
+</footer>
+
