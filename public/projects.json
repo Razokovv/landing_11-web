@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Oson SMS",
+    "description": "How do you create compelling presentations that wow your colleagues and impress your managers?",
+    "image": "/images/6.png",
+    "category": "Веб дизайн"
+  },
+  {
+    "title": "Migrating to Linear 101",
+    "description": "Linear helps streamline software projects, sprints, and bug tracking.",
+    "image": "/images/7.png",
+    "category": "Мобильные приложения"
+  },
+  {
+    "title": "Building your API stack",
+    "description": "The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them.",
+    "image": "/images/8.png",
+    "category": "SaaS"
+  },
+  {
+    "title": "Bill Walsh leadership lessons",
+    "description": "Transforming a 2-14 team into a 3x Super Bowl winning Dynasty.",
+    "image": "/images/9.png",
+    "category": "Веб дизайн"
+  },
+  {
+    "title": "PM mental models",
+    "description": "Mental models are simple expressions of complex processes or relationships.",
+    "image": "/images/10.png",
+    "category": "Мобильные приложения"
+  },
+  {
+    "title": "What is wireframing?",
+    "description": "Introduction to wireframing and its principles.",
+    "image": "/images/11.png",
+    "category": "SaaS"
+  }
+]

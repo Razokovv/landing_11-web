@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "/icons/featured-icon.svg",
+    "title": "Share team inboxes",
+    "description": "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop."
+  },
+  {
+    "icon": "/icons/featured-icon2.svg",
+    "title": "asdasds Workflows",
+    "description": "Keep your entire team in sync with shared projects, notifications, and easy collaboration features."
+  },
+  {
+    "icon": "/icons/featured-icon2.svg",
+    "title": "Custom Integrations",
+    "description": "Easily integrate with your existing tools and automate repetitive tasks with our API stack."
+  },
+  {
+    "icon": "/icons/featured-icon.svg",
+    "title": "Advanced Analytics",
+    "description": "Get deep insights into your team’s performance and find opportunities for improvement with real-time analytics."
+  }
+]

@@ -1,10 +1,15 @@
 <div class="content">
   <header class="header container">
-    <nav class="nav">
+    <nav class="nav" [ngClass]="{ 'active': isMenuOpen }">
       <a href="#">Главная</a>
       <a href="#">Контакты</a>
       <a href="#">О нас</a>
     </nav>
+    <div class="burger-menu" (click)="toggleMenu()" [ngClass]="{ 'active': isMenuOpen }">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
   </header>
   <div class="h-line"></div>
   <section class="landing-content container">
